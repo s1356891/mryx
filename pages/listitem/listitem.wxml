@@ -1,0 +1,27 @@
+<!--pages/listitem/listitem.wxml-->
+<view style='height:116px;margin:20px;display:flex;'>
+<view>
+<image src='{{imagesrc}}' style='width:116px;height:116px'></image>
+</view>
+  <view style='margin-left:20px;width:100%'>
+  <text style='display:block'>{{title}}</text>
+  <view style='height:80%;display:flex;flex-direction:column;justify-content: space-between;'>
+  <text>{{description}}</text>
+  <text> </text>
+  <view style='display:flex;flex-direction:row'>
+  <text>{{price}} </text>
+    <view style='flex-grow:1;display:flex;justify-content: flex-end;'>
+<view wx:if="{{count==0}}" >
+<image src='../../images/index/gwc.png' style='width:35px;height:35px'></image>
+</view>
+<view wx:elif='{{count>0}}' style='height:24px'>
+    <image src='../../images/index/jx.png' style='width:24px;height:24px'></image>
+    <text>{{count}}</text>
+    <image src='../../images/index/zj.png' style='width:24px;height:24px'></image>
+</view>
+</view>
+  </view>
+  </view>
+ </view>
+ 
+</view>

@@ -1,0 +1,6 @@
+{
+  "backgroundTextStyle": "dark",
+  "usingComponents": {
+    "listitem": "../listitem/listitem"
+  }
+}

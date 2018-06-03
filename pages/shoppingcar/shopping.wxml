@@ -1,0 +1,132 @@
+<!-- <view class="video">
+ <video autoplay="true" controls="controls" src="{{ videoUrl }}" ></video>
+</view>
+ 
+<scroll-view class="main" scroll-y="true">
+  <view> -->
+    <listitem imagesrc='../../images/index/gfxj.png' title='荔枝' description='eijejrijr' price='$5.99'/>
+    <!-- <view class="item" bindtap="openVideo">
+      <text>微信小程序第一课1</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课</text>
+    </view>
+ 
+    <view class="item">
+      <text>微信小程序第一课111</text>
+    </view>
+ 
+  </view>
+</scroll-view> -->

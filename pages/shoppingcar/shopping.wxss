@@ -1,0 +1,28 @@
+/* pages/shoppingcar/shopping.wxss */
+page {
+  overflow-y: none;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+}
+ 
+.video{
+  position: fixed;
+  width:100%;
+  top:0;
+  height: 30vh;
+  z-index: 999;
+  background-color: red;
+ 
+}
+ 
+.main {
+  box-sizing: border-box;
+  height: 70vh;
+  line-height: 2;
+  position: fixed;
+  bottom: 0;
+}

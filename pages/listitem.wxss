@@ -1,0 +1,12 @@
+/* pages/listitem.wxss */
+.bigimage{
+  width: 116px;
+  height: 116px;
+}
+.itemcontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    background: "#ffaa00";
+}

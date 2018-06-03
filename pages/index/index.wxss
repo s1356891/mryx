@@ -1,0 +1,58 @@
+/* pages/index/index.wxss */
+page {
+  overflow-y: none;
+  height: 100%;
+}
+.title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: "#ffaa00";
+}
+.mid{
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-around;
+  display: flex
+}
+.main{
+      display: flex; 
+
+    flex-direction: column; 
+
+    height: 100%; 
+
+    width: 100%; 
+}
+.bottom{
+    display: flex; 
+
+    flex: 1; 
+
+    overflow-y: auto; 
+}
+.tab-item{margin:0 36rpx;display: inline-block;}
+.tab-item.active{color: #ff33a9;position: relative;}
+.tab-h{
+    height: 80rpx;width: 100%; box-sizing: border-box;overflow: hidden;line-height: 80rpx;font-size: 16px; white-space: nowrap;position: static;top: 0; left: 0; }
+    ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+	.customSwiper{height: 300rpx;position: relative;}
+	.customSwiper swiper{height: 100%;}
+/*自定义面板样式  */
+.tab{
+  height: 70rpx;position: absolute;bottom: 0;display: flex;
+  width: 100%;text-align: center;justify-content: center;
+  align-items: center;
+}
+.tab .tab-item{
+  background-color: #ccc;height: 50rpx;width: 100rpx;
+  line-height: 50rpx;font-size: 30rpx;color: #ff33a9;border-radius: 4px;margin-right: 10px;
+}
+.tab .tab-item.selected{background-color: gray}
+
+.banner{ height: 400px;background-color: #ddd}

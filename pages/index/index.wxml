@@ -1,0 +1,57 @@
+<!--pages/index/index.wxml-->
+
+<view class='main'>
+<view class='title'>
+  <view style='margin-left:20px;width:20px;height:30px'>
+    <text> </text>
+  </view>
+  <view style='text-align:center'>
+    <image src='../../images/index/lxsd.png' style='width:60px;height:20px'></image>
+    <text style='font-size:14px;margin-left:10px'>{{address}}</text>
+  </view>
+  <view style='margin-right:20px'>
+    <image style='width:20px;height:30px' src='../../images/index/search.png'></image>
+  </view>
+</view>
+<view>
+  <scroll-view scroll-x="true" class="tab-h">
+    <view class="tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="swichNav">小程序特惠</view>
+    <view class="tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="swichNav">啤酒节</view>
+    <view class="tab-item {{currentTab==2?'active':''}}" data-current="2" bindtap="swichNav">水果</view>
+    <view class="tab-item {{currentTab==3?'active':''}}" data-current="3" bindtap="swichNav">乳品</view>
+    <view class="tab-item {{currentTab==4?'active':''}}" data-current="4" bindtap="swichNav">蔬菜</view>
+    <view class="tab-item {{currentTab==5?'active':''}}" data-current="5" bindtap="swichNav">网红</view>
+    <view class="tab-item {{currentTab==6?'active':''}}" data-current="6" bindtap="swichNav">水产</view>
+    <view class="tab-item {{currentTab==7?'active':''}}" data-current="7" bindtap="swichNav">大便</view>
+  </scroll-view>
+</view>
+<view class='bottom'>
+<scroll-view  scroll-y="true" style='height:100%'>
+  <view class='customSwiper'>
+    <swiper class='banner' autoplay='true' interval='2000' duration='300' bindchange='switchTab'>
+      <block wx:for="{{sliderList}}">
+        <swiper-item>
+          <image style='width:100%;height:100%;' src='{{item.imageResource}}' />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class='tab'>
+      <block wx:for="{{sliderList}}">
+        <view wx:if="{{item.selected}}" class='tab-item selected'>{{index+1}}/3</view>
+      </block>
+    </view>
+  </view>
+  <view class='mid' style='padding-top:20px;padding-bottom:20px'>
+    <image src='../../images/index/yyqx.png' style='width:55px;height:65px'></image>
+    <image src='../../images/index/gfxj.png' style='width:55px;height:65px'></image>
+    <image src='../../images/index/ttlq.png' style='width:55px;height:65px'></image>
+  </view>
+  <view style='padding:10px'>
+    <image src='../../images/index/index_mid.png' style='width:100%'></image>
+  </view>
+   <block wx:for="{{goodsList}}">
+        <listitem imagesrc='{{item.imgUrl}}' title='{{item.title}}' description='{{item.disc}}' price='{{item.price}}' count='{{item.count}}'/>
+      </block>
+</scroll-view>
+</view>
+</view>

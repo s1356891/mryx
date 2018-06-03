@@ -1,0 +1,7 @@
+<!--pages/my/my.wxml-->
+<view style='height:200px;width:100%;background-color:#f4f5f6;display:flex;justify-content:center;flex-direction:column;align-items:center'>
+  <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+</view>
+
+

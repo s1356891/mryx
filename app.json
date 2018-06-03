@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoppingcar/shopping",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "每日优鲜",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#ff33a9",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "box-shadow": "0 0 6px 0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/nav/ic_home_unselect.png",
+        "selectedIconPath": "images/nav/ic_home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shoppingcar/shopping",
+        "iconPath": "images/nav/ic_shopping_cart_unselect.png",
+        "selectedIconPath": "images/nav/ic_shopping_cart_select.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/nav/ic_mine_unselect.png",
+        "selectedIconPath": "images/nav/ic_mine_select.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
